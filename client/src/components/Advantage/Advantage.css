@@ -1,0 +1,79 @@
+.Advantage{
+    width: 1140px;
+    height: 210px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 382px;
+    margin-top: 98px;
+}
+
+.Group115{
+    width: 363px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.G115{
+    width: 68px;
+    height: 68px;
+}
+
+.Content115{
+    font-size: 22px;
+    font-weight: 500;
+}
+.Span-content115{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Group116{
+    width: 294px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.G116{
+    width: 48px;
+    height: 66px;
+}
+
+.Content116{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.Span-content116{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Group117{
+    width: 332px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.G117{
+    width: 66px;
+    height: 68px;
+}
+
+.Content117{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.Span-content117{
+    font-size: 15px;
+    font-weight: 400;
+}
