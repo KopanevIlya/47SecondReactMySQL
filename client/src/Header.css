@@ -1,0 +1,142 @@
+.header {
+    background: #fff;
+    padding: 24px 0 0 0;
+    box-shadow: 0 2px 4px #0001;
+  }
+  
+  .header__top,
+  .header__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  
+  .header__bottom {
+    margin-top: 18px;
+  }
+  
+  .header__logo-block {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .header__logo {
+    height: 38px;
+  }
+  
+  .header__logo-green {
+    color: #4ab14a;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  
+  .header__logo-blue {
+    color: #2c4d99;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  
+  .header__logo-subtitle {
+    font-size: 10px;
+    color: #7a7a7a;
+  }
+  
+  .header__search {
+    width: 350px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    background: #fafbfc;
+    font-size: 16px;
+  }
+  
+  .header__contacts {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .header__phone {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .header__phone-icon {
+    color: #b0b0b0;
+  }
+  
+  .header__callback {
+    background: #f6f7fa;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 26px;
+    font-size: 16px;
+    color: #2c4d99;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .header__menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .header__catalog {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #272d3e;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 26px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .header__link {
+    color: #232323;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .header__actions {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .header__city {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #232323;
+    font-size: 16px;
+  }
+  
+  .header__cart {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #232323;
+    font-size: 16px;
+    position: relative;
+  }
+  
+  .header__cart-count {
+    background: #2567ff;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 10px;
+    padding: 0 7px;
+    margin-left: 2px;
+  }
