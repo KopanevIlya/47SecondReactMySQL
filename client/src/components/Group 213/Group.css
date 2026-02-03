@@ -1,0 +1,84 @@
+.Group{
+    display: flex;
+    width: 1920px;
+    height: 641px;
+    background-blend-mode: multiply;
+    background-color: rgba(244, 244, 244, 1);
+    
+
+    
+}
+
+.Left-block{
+    margin-top: 116px;
+    margin-left: 327px;
+}
+
+.Content{
+    display: flex;
+    width: 611px;
+    height: 195px;
+    flex-direction: column;
+}
+
+.span-content{
+   position: absolute;
+     font-size: 54px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.Flag{
+    width: 35px;
+    height: 30px;
+}
+
+.Vector{
+    width: 320px;
+    height: 19px;
+    margin-left: 71px;
+    margin-top:148px;
+
+}
+
+.Description-content{
+    width: 544px;
+    height: 68px;
+    margin-bottom: 32px;
+    font-size: 21px;
+    font-weight: 400;
+    color: rgba(43, 51, 80, 1);
+}
+
+.Record{
+    width: 297px;
+    height: 78px;
+    margin-bottom: 130px;
+    border: rgba(0, 116, 212, 1);
+    border-radius: 8px;
+    background-color: rgba(0, 116, 212, 1);
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+   
+}
+
+.Right-block{
+    display: flex;
+}
+
+.Arm{
+    width: 450px;
+    height: 550px;
+    margin-top: 30px;
+    position: absolute;
+    
+}
+
+.Armchar{
+    width: 400px;
+    height: 400px;
+    margin-top: 120px;
+   margin-left: 350px;
+    opacity: 0.5;
+}
