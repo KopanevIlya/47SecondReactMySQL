@@ -1,0 +1,86 @@
+.FeaturesArmchair{
+    background-color: rgba(241, 246, 247, 0.995);
+    width: 100%;
+    height: 1065px;
+}
+
+.FeaturesArmchair-top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 94px;
+    row-gap: -20px;
+    
+}
+
+.Heading_FeaturesArmchair-top{
+  
+    color: rgba(43, 51, 80, 1);
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.Description_FeaturesArmchair-top{
+    color:rgba(87, 96, 119, 1);
+    font-size: 23px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 161px;
+}
+
+.FeaturesArmchair-bottom{
+   display: flex;
+   margin-top: 178px;
+   justify-content: center;
+   /* align-items: center;  */
+   column-gap: 404px;
+}
+
+.FeaturesArmchair-bottom_left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+    
+}
+
+.FeaturesArmchair-bottom_right{
+   display: flex;
+    flex-direction: column;
+    row-gap: 28px; 
+}
+
+
+.IndividualSettings_heading{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(43, 51, 80, 0.368);
+}
+
+.IndividualSettings_content{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(87, 96, 119, 0.304);
+    
+}
+
+.IndividualSettings_heading-highlighted{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(43, 51, 80, 1);
+}
+
+.IndividualSettings_content-highlighted{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(87, 96, 119, 1);
+    
+}
+
+.Peak{
+    position: absolute;
+    margin-top: -180px;
+   
+    
+
+}
