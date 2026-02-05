@@ -7,7 +7,7 @@ const app = express()
 const db = mysql.createConnection({
     host:"localhost",
     user:"root",
-    password:"2102",
+    password:"123Qwe45",
     database:"47second"
 })
 
@@ -52,6 +52,18 @@ app.post("/cart", (req, res) => {
     });
 });
 
+app.get("/cart",(req,res)=>{
+    const q =`
+    SELECT cart.id, cart.product_id, cart.quantity, products.title, products.price, products.img
+    FROM cart
+    JOIN products ON cart.product_id = products.id
+    `;
+    
+    db.query(q,(err,data)=>{
+        if(err) return err.json(err);
+        return res.json(data); 
+    })
+})
 
 
 
