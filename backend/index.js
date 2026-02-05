@@ -39,7 +39,7 @@ app.post("/cart", (req, res) => {
             const updateQuery = "UPDATE cart SET quantity = quantity + ? WHERE product_id = ?";
             db.query(updateQuery, [quantity, productId], (err2) => {
                 if (err2) return res.status(500).json(err2);
-                return res.json("Количество товара увеличено");
+                return res.json("Количество товара увеличено!");
             });
         } else {
             // Если нет, добавляем новую запись
