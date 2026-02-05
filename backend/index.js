@@ -10,7 +10,7 @@ const db = mysql.createConnection({
     password:"123Qwe45",
     database:"47second"
 })
-
+///////
 app.get("/",(req,res)=>{
     res.json("hello")
 
