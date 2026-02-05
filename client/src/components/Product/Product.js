@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import "./Product.css";
-
+import Header from '../Header/Header';
+import Advantage from '../Advantage/Advantage';
+import Group from '../Group 213/Group';
+import FeaturesArmchair from '../FeaturesArmchair/FeaturesArmchair';
 
 
 function Product() {
@@ -35,19 +38,11 @@ function Product() {
     };
 
 
-    // const handleDelete =  async (id)=>{
-    //     try{
-    //       await axios.delete("http://localhost:8800/items/"+id)
-    //       window.location.reload()
-    //     }catch(err){
-    //         console.log(err)
-    //     } 
-
-  
-    // }
-
   return (
     <div>
+        <Header/>
+        <Group/>
+        <Advantage/>
   
            <h1>Каталог</h1>
            <div className='wrapper'>
@@ -66,6 +61,7 @@ function Product() {
                     
                 ))}
            </div>
+           <FeaturesArmchair/>
     </div>
   )
 }

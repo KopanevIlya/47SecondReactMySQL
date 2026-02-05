@@ -1,8 +1,17 @@
 import React from "react";
 import { FaBars, FaPhone, FaShoppingCart, FaLocationArrow } from "react-icons/fa";
 import "./Header.css";
+import {useNavigate} from "react-router-dom"
 
-const Header = () => (
+
+
+
+
+const Header = () => {
+  
+  const navigate = useNavigate();
+  return  (
+ 
   <header className="header">
     <div className="header__top">
       <div className="header__logo-block">
@@ -36,7 +45,7 @@ const Header = () => (
           <FaLocationArrow />
           <span>Москва</span>
         </div>
-        <div className="header__cart">
+        <div className="header__cart" onClick={()=> navigate('/cart')}>
           <FaShoppingCart />
           <span>Моя корзина</span>
           <span className="header__cart-count">+1</span>
@@ -45,6 +54,7 @@ const Header = () => (
     </div>
   </header>
 );
+}
 
 export default Header;
 
